@@ -125,16 +125,14 @@ console.log("start svgMapper_r12");
 
  <div id="mapcanvas" title="Container.svg"></div>
  <div id="gui">
-  <img id="zoomupButton" style="left: 5px; top: 5px; position: absolute;" src="buttons/zoomup.png" onclick="svgMap.zoomup()" width="20" height="20" />
-  <img id="zoomdownButton" style="left: 5px; top: 25px; position: absolute;" src="buttons/zoomdown.png" onclick="svgMap.zoomdown()" width="20" height="20" />
-  <img id="gpsButton" style="left: 5px; top: 45px; position: absolute;" src="buttons/gps.png" onclick="svgMap.gps()" width="20" height="20" />
+  <img id="zoomupButton" style="left: 5px; top: 5px; position: absolute;" src="img/zoomup.png" onclick="svgMap.zoomup()" width="20" height="20" />
+  <img id="zoomdownButton" style="left: 5px; top: 25px; position: absolute;" src="img/zoomdown.png" onclick="svgMap.zoomdown()" width="20" height="20" />
+  <img id="gpsButton" style="left: 5px; top: 45px; position: absolute;" src="img/gps.png" onclick="svgMap.gps()" width="20" height="20" />
   <font color="blue" style="right: 5px; top: 5px; position: absolute;" >Tutorial SVG Map</font>
-  <img id="centerSight" style="opacity:0.5" src="buttons/Xcursor.png" width="15" height="15"/>
+  <img id="centerSight" style="opacity:0.5" src="img/Xcursor.png" width="15" height="15"/>
   <font id="posCmt" size="-2" color="brown" style="left: 5px; bottom: 5px; position: absolute;">Lat,Lng:</font>
   <font id="centerPos" size="-2" color="brown" style="left: 50px; bottom: 5px; position: absolute;" >lat , lng</font>
 
-  <div id="layerList" style="left :30px; top: 10px; width:300px;height:90%; position: absolute; " data-customizer="../CustomLayersManager/html/SVGMapCustomLayersManager.html">
-  </div>
   <div id="layerSpecificUI" style="right :10px; top: 40px; width:400px;height:400px; position: absolute; background-color: white;opacity:0.8;display:none;">
   </div>
 
